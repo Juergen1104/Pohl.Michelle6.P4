@@ -43,7 +43,7 @@ public class ClientProtocol extends Thread {
             }
         } catch (IOException e) {
             System.err.println("Fehler beim Senden der Würfelpositionen: " + e.getMessage());
-            closeConnection(); // Verbindung sicher schließen
+            closeConnection();
         }
     }
 
