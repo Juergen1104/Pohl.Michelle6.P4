@@ -1,5 +1,8 @@
 package message;
 
 public enum MessageType {
-	DISCONNECT;
+	DISCONNECT,
+	START,
+	CHECK,
+	RESULT
 }
